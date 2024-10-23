@@ -32,6 +32,9 @@ _C.MODEL.KEYPOINT_ON = False
 _C.MODEL.DEVICE = "cuda"
 _C.MODEL.META_ARCHITECTURE = "GeneralizedRCNN"
 _C.MODEL.TRAIN_BBREG_ON = True
+_C.MODEL.TRAIN_RPN = True
+_C.MODEL.TRAIN_BACKBONE = True
+
 # Path (a file path, or URL like detectron2://.., https://..) to a checkpoint file
 # to be loaded to the model. You can find available models in the model zoo.
 _C.MODEL.WEIGHTS = ""
